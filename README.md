@@ -29,11 +29,11 @@
 
 ## 预览
 
+![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img3.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img7.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img6.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img5.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img4.jpg)
-![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img3.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img2.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img1.jpg)    
 
