@@ -27,6 +27,15 @@
 * 新建评论
 * 为评论点赞
 
+## 体验一下
+
+1. 克隆到本地：
+``` $ git https://github.com/web-L/wxCNod ```
+
+2. 下载打开 [微信Web开放者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=2018510) 
+
+3. 选择目录，填写项目名称，点击 AppID 右下角体验小程序 
+
 ## 预览
 
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img3.jpg)
@@ -37,17 +46,7 @@
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img2.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img1.jpg)    
 
-## 体验一下
-
-1. 克隆到本地：
-``` $ git https://github.com/web-L/wxCNod ```
-
-2. 下载打开 [微信Web开放者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=2018510) 
-
-3. 选择目录，填写项目名称，点击 AppID 右下角体验小程序 
 
 ## 结尾
 
 >感谢：[CNodeApi](https://cnodejs.org/api)
-
->有兴趣的大佬可以看看 [https://github.com/web-L/wxCNode](https://github.com/web-L/wxCNode)
