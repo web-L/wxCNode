@@ -37,6 +37,15 @@
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img2.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img1.jpg)    
 
+## 使用
+
+* 克隆到本地：
+``` $ git https://github.com/web-L/wxCNod ```
+
+* 下载打开 [微信Web开放者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=2018510) 
+
+* 选择目录，填写项目名称，点击 AppID 右下角体验小程序 
+
 ## 结尾
 
 >感谢：[CNodeApi](https://cnodejs.org/api)
