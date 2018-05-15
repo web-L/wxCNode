@@ -10,11 +10,11 @@
 边看文档边写的代码，界面布局是参考 CNode客户端。
 发布审核 N次都没能通过，原因是：
 
-    ```
-    1:小程序内容不符合规则:
-    (1):你好，贵方小程序涉及用户UGC内容的发布与交流，属社交范畴，为个人主体小程序未开放类目，建议申请企业主体小程序
-    如有疑问，请查看详情与反馈。
-    ```
+```
+1:小程序内容不符合规则:
+(1):你好，贵方小程序涉及用户UGC内容的发布与交流，属社交范畴，为个人主体小程序未开放类目，建议申请企业主体小程序
+如有疑问，请查看详情与反馈。
+```
 ## 实现功能
 
 * 登录、扫码登录
@@ -30,9 +30,9 @@
 ## 预览
 
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img3.jpg)
+![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img5.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img7.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img6.jpg)
-![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img5.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img4.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img2.jpg)
 ![预览图](http://p86t9neoe.bkt.clouddn.com/docs_img1.jpg)    
