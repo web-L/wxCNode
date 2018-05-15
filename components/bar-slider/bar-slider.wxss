@@ -1,0 +1,131 @@
+/* components/bar-slider.wxss */
+@import "../../static/css/common.wxss";
+
+.slider-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 560rpx;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateX(-560rpx);
+    -webkit-transform: translateX(-560rpx);
+    z-index: 10;
+}
+
+.slider-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.slider-wrap .slider-header {
+    position: relative;
+    z-index: 1;
+}
+
+.slider-wrap .slider-header {
+    text-align: center;
+    color: #fff;
+    font-size: 30rpx;
+}
+.out-login{
+    position: absolute;
+    top: 40rpx;
+    right: 40rpx;
+    color: #999;
+}
+
+.slider-wrap .slider-container {
+    position: absolute;
+    bottom: 160rpx;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    font-size: 30rpx;
+    margin-top: 40rpx;
+}
+
+.slider-wrap .nav .iconfont {
+    font-size: 44rpx;
+    vertical-align: sub;
+    padding-right: 40rpx;
+}
+
+.slider-wrap .nav {
+    width: 100%;
+}
+
+.slider-wrap .nav .item {
+    line-height: 94rpx;
+    padding-left: 28rpx;
+    display: block;
+    font-size:29rpx;
+}
+.slider-wrap .nav .item.activa{
+    color: #80bd01;
+}
+
+.slider-wrap .head {
+    width: 160rpx;
+    height: 160rpx;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40rpx;
+    margin-bottom: 8rpx;
+}
+
+.slider-wrap .head .img {
+    width: 100%;
+    height: 100%;
+}
+.slider-wrap .head .defale-img {
+    width: 80%;
+    height: 80%;
+    padding-top: 8rpx;
+}
+
+.slider-wrap .slider-header .title {
+    line-height: 38rpx;
+    margin-left: 28rpx;
+    margin-top: 24rpx;
+    padding-left: 28rpx;
+    border-left: 3px solid #80bd01;
+    text-align: left;
+    color: #ccc;
+    font-size: 24rpx;
+}
+
+.slider-footer{
+    position: absolute;
+    bottom: 20rpx;
+    left: 0;
+    z-index: 1;
+    width:100%;
+    text-align: center;
+}
+.slider-footer .txt{
+    color: #fff;
+    font-size: 24rpx;
+    line-height: 40rpx;
+}
+
+.slider-switch{
+    position: fixed;
+    bottom: 60rpx;
+    right: 40rpx;
+    border-radius: 50%;
+    background: #80bd01;
+    font-size:100rpx;
+    color: #fff; 
+    text-align: center;
+    padding: 0 4rpx;
+    box-shadow: 0 0 20rpx #999;
+}

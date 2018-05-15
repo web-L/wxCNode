@@ -1,0 +1,41 @@
+<!--components/bar-slider.wxml-->
+<view class="slider-wrap slide-bg1" style="background:url({{slideBg}}) no-repeat center/cover;" animation="{{sliderAin}}">
+    <view class="slider-header">
+        <view class="head-box" >
+            <navigator wx:if="{{user.loginname}}" hover-class="none"  url="/pages/user/user?loginname={{user.loginname}}">
+                <view class="head">
+                    <image class="img" src="{{user.avatar_url}}"></image>
+                </view>
+                <view class="login" >{{ user.loginname}}</view>
+            </navigator>
+            <block wx:else>
+                <view class="head">
+                    <image bindtap="_openLogin" class="defale-img" src="http://p86t9neoe.bkt.clouddn.com/defale-head.svg"></image>
+                </view>
+                <view class="login" bindtap="_openLogin">点击头像登录</view>
+            </block>
+        </view>
+        <view class="title">{{tips}}</view>
+        <view wx:if="{{user.loginname}}" bindtap="_outLogin" class="out-login">注销</view>
+    </view>
+    <view class="slider-container">
+        <view class="nav">
+            <navigator 
+                    wx:for="{{nav}}"
+                    wx:key="nav.index"
+                    open-type="redirect" 
+                    data-tab="{{item.tab}}" 
+                    bindtap="_triggerNavTap" 
+                    url="index?tab={{item.tab}}" 
+                    class="item {{currentTab ===  item.tab ? 'activa': ''}}">
+            <txt class="iconfont {{item.icon}}"></txt>{{item.name}}</navigator>
+        </view>
+    </view>
+    <view class="slider-footer">
+        <view class="txt">作者： web-L</view>
+        <view class="txt">API来自于：https://cnodejs.org/</view>
+    </view>
+</view>
+<view class="slider-switch iconfont  icon-nodejs" wx:if="{{sliderState}}" bindtap="_sliderswitch"></view>
+<mask maskState="{{!sliderState}}" bind:clickMask="_onClickMask"></mask>
+<login isOpenLogin="{{isOpenLogin}}" bind:loginStateSync="_LoginSateSync"  bind:loginSuccess="_onLoginSuccess" isMask="{{false}}"></login>
